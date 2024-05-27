@@ -1,0 +1,400 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: inherit;
+    box-sizing: border-box;
+
+}
+header{
+    width: 100%;
+    background-color: #eee;
+    position: relative;
+
+}
+.header_fst{
+    width: 100%;
+    height: 100px;
+    background-color:white;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    position: static;
+}
+.logo{
+    height:48px;
+    width: 80px;
+    background: url(https://st.redbus.in/Images/rdc/rdc-redbus-logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    padding: 1em .625rem;
+    color: #fff;
+    border-radius: .5rem;
+    margin-right: .75rem;
+    text-align: center;
+    position: relative;
+    background-color:#d84e55;
+    width: 104px;
+    height: 72px;
+    text-align: center;
+    left: 150px;
+    
+}
+.box_logo{
+    height:20px;
+    width: 80px;
+    background: url(https://st.redbus.in/Images/rdc/rdc-redbus-logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat; 
+    margin-bottom: 8px;
+    color: #fff;
+}
+.box_text{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box2{
+    height: 72px;
+    width: 108px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em .625rem;
+    background-color: transparent;
+    border-radius: .5rem;
+    margin-right: .75rem;
+    text-align: center;
+    position: relative;
+    left: -130px;
+}
+.box2:hover{
+    background-color: #eee;
+}
+.box2_logo{
+    background: url(https://st.redbus.in/web/images/layout/rail_vertical.svg);
+    height: 20px;
+    width: 35px;
+    color: black;
+}
+.img_tag{
+    position: absolute;
+    width: max-content;
+    height: 17px;
+    width: 47px;
+    padding: .125rem .40rem;
+    background: #60b681;
+    color: #fff;
+    border-radius: .375rem;
+    font-size: 12px;
+    font-weight: 500;
+    top:5px ;
+    left: 60%;
+    text-align: center;
+}
+.box2_word{
+    font-weight: 500;
+    color: #1d1d1d;
+    margin-top: 8px;
+}
+.Account{
+    margin-right: -80px;
+    color: #4a4a4a;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 34px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Account:hover{
+    background-color:#eee;
+}
+.help{
+    margin-right: -250px;
+    color: #4a4a4a;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 34px;
+    width: 83px;
+    border-radius: 5px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.help:hover{
+    background-color:#eee;
+}
+i{
+    margin-right: 10px;
+    font-size: 20px;
+}
+.header2{
+    background: url("../images/banner.png");
+    height: 520px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.header2_word{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 25px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header2_content{
+    position: absolute;
+    top: 115px;
+    left: 145px;
+    display: flex;
+    
+}
+.header2_content1{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 270px;
+    height: 112px;
+    gap: 13px;
+    border-radius: 32px 0px 0px 32px;
+    background-color: rgb(255, 255, 255);
+}
+.header2_content2{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 270px;
+    height: 112px;
+    gap: 13px;
+    background-color: rgb(255, 255, 255);
+}
+.header2_content3{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 210px;
+    height: 112px;
+    gap: 13px;
+    background-color: rgb(255, 255, 255);
+}
+.header2_content4{
+    min-width: 243px;
+    max-width: max-content;
+    padding: 40px;
+    gap: 12px;
+    background: rgb(216, 78, 85);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: none;
+    border-radius: 0px 32px 32px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header3{
+        width: 1200px;
+        height: fit-content;
+        padding: 2rem;
+
+        background: rgb(255, 255, 255);
+        box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 25px;
+        border-radius: 32px;
+        display: flex;
+        
+        flex-direction: column;
+        gap: 2rem; 
+     position: absolute;  
+           top: 550px;
+         left: 30px;}
+.header3 h1{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #4a4a4a;
+}
+
+.header3_content{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.header3_content1{
+    display: flex;
+    justify-content: space-around;
+    width: 20.3rem;
+    border-radius: 1rem;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(71.04deg, rgb(12, 57, 139) -6.92%, rgb(62, 118, 216) 109.43%);
+    padding: 1rem;
+    gap: 1rem;
+    cursor: pointer;
+}
+.header3_content1main{
+    display: flex;
+    justify-content: space-around;
+}
+.header3_content1main p{
+font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    max-height: 3rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.header4{
+    height: 90px;
+    width: 1200px;
+    background: url("../images/img2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 850px;
+    left: 30px;
+    border-radius: 12px;
+}
+.header5 h1{
+    position: absolute;
+    top: 1000px;
+    left: 30px;
+    color: #1d1d1d;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    font-family:sans-serif;
+}
+.header6{
+    position: absolute;
+    top: 1100px;
+    left: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.header6_box1{
+    background: blue;
+    min-width: 480px;
+    border-radius: 16px;
+    height: 198px;
+}
+.main{
+    width: 100%;
+    background-color: #eee;
+    margin-top: 30px;
+    position: relative;
+    top: 1200px;display: flex;
+
+}
+.main_fst{
+    width: 1000px;
+    margin: auto;
+    position: absolute;
+    top: 1400px;
+    left: 150px;
+    display: flex;
+    flex-direction: row;
+   
+}
+.main_fst h2{
+    color: #4a4a4a;
+    word-break: break-word;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 800;
+}
+.main_fst2{
+    background: url(https://s3.rdbuz.com/web/images/homeV2/AboutUs/aboutUsImg.svg);
+    width: 512px;
+    height: 612px;
+     background-size: cover;
+     background-repeat: no-repeat;
+    animation: 1000ms ease-in-out 0s 1 normal forwards running scal
+    
+}
+.main2{
+    background: url(https://s1.rdbuz.com/web/images/homeV2/appinstall/appInstallbg.svg);
+    width: 1200px;
+    height: 418px;
+    background-size: cover;
+    border-radius: 48px;
+    position: absolute;
+    top: 2100px;
+    left: 30px;
+    background-position: center;
+    
+}
+.main2 h2{
+    color: white;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.main3{
+    background: url(https://s3.rdbuz.com/Images/webplatform/india/primo/primoHome.svg);
+    height: 520px;
+    width: 1200px;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    top: 2700px ;
+    left: 60px;
+}
+.main3_content{
+    height: 525px;
+    width: 482px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background: rgb(35, 48, 88);
+    padding: 80px 42px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: flex-start;
+    color: rgb(255, 255, 255)
+}
+.main4 h2{
+    color: #4a4a4a;
+    word-break: break-word;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: capitalize;
+    position: absolute;
+    top: 3200px ;
+
+}
